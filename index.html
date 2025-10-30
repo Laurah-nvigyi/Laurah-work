@@ -7,51 +7,50 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="card header-card">
         <div class="profile-section">
-            <h1>Ankunda laurah - Data Analyst</h1>
-            <p>I am a Data Analyst with a passion for data-driven decision making and turning raw data into actionable insights.</p>
-            <h5>Student Number: 2300706239</h5>
-            <div class="photo-box">
-                <div class="photo-placeholder">
-                    <img src="WhatsApp Image 2025-10-27 at 20.48.31.jpeg" alt="My Photo">
+            <h1 class="title">Ankunda laurah - Data Analyst</h1>
+            <div class="header-row">
+                <div class="photo-placeholder" aria-label="Your Photo (Passport Size)">
+                    <img src="WhatsApp Image 2025-10-27 at 20.48.31.jpeg" alt="Passport Photo">
                 </div>
+                <nav class="menu nav-sections" aria-label="Primary">
+                    <a href="#education">Schools</a>
+                    <span class="divider" aria-hidden="true">|</span>
+                    <a href="#hobbies">Hobbies</a>
+                    <span class="divider" aria-hidden="true">|</span>
+                    <a href="#work">Work Experience</a>
+                </nav>
             </div>
-            <nav class="menu">
-                <a href="#education">Education</a>
-                <a href="#work">Work Experience</a>
-                <a href="#hobbies">Hobbies</a>
-            </nav>
         </div>
     </header>
 
-    <section id="education" class="schools-section">
-        <h2>Education</h2>
+    <section id="education" class="card schools-section">
+        <h2 class="section-title">Schools Attended</h2>
         <div class="schools-grid">
-            <div class="school-item">
-                <span class="year">2015</span> bweranyangi junior school
+            <div class="school-card">
+                <div class="school-year">2015</div>
+                <div class="school-name">Bweranyangi Junior School</div>
             </div>
-            <div class="school-item">
-                <span class="year">2022</span> St Agnes Girls Secondary School
+            <div class="school-card">
+                <div class="school-year">2022</div>
+                <div class="school-name">St Agnes Girls Secondary School</div>
             </div>
-            <div class="school-item">
-                <span class="year">2027</span> Makerere University (BSc in Statistics and Data Science)
+           
+            <div class="school-card">
+                <div class="school-year">2027</div>
+                <div class="school-name">Makerere University(BSc in Libray and Information Science)</div>
             </div>
+           
         </div>
     </section>
 
-    <section id="work" class="work-section">
-        <h2>Work Experience</h2>
-        <ul>
-            <li><strong>2024-2024:</strong> Data Analyst Intern at City Health Clinic</li>
-            <li><strong>2025:</strong> Data Collection and Analysis at Uganda Bureau of Statistics</li>
-        </ul>
-    </section>
+  
 
 
-    <section id="hobbies" class="hobbies-section">
-        <h2>Hobbies</h2>
-        <ul>
+    <section id="hobbies" class="card hobbies-section">
+        <h2 class="section-title">Hobbies</h2>
+        <ul class="hobby-list">
             <li>Analyzing data trends and patterns</li>
             <li>Learning new data visualization tools</li>
             <li>Traveling and exploring new places</li>
@@ -59,9 +58,12 @@
             <li>Listening to music</li>
         </ul>
     </section>
-
-    <footer>
-        <p>&copy; 2025 Ankunda laurah - Data Analyst</p>
-    </footer>
+    <section id="work" class="card work-section">
+        <h2 class="section-title">Work Experience</h2>
+        <ul class="work-list">
+            <li><strong>2024-2024:</strong> Data Analyst Intern at City Health Clinic</li>
+            <li><strong>2025:</strong> Data Collection and Analysis at Uganda Registration Services Bureau</li>
+        </ul>
+    </section>
 </body>
 </html>
